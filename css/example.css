@@ -1,0 +1,16 @@
+/**
+  Tutorial : Comments System with Reply Usong jQuery & Ajax
+  Author: Amine Kacem
+  Author URI: http://www.webcodo.com
+*/
+
+/* the comments container  */
+
+.cmt-cnt{
+	width: 100%; height: auto; min-height: 35px; 
+}
+.new-com-cnt{ 
+    height: auto; 
+	display: none;
+	border-top: #d9d9d9 1px dotted;
+}

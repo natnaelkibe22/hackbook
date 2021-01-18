@@ -1,0 +1,1 @@
+CREATE TABLE `hser`.`posts` ( `id` INT(11) NOT NULL DEFAULT '10' AUTO_INCREMENT , `body` TEXT NOT NULL , `added_date` DATETIME NOT NULL , `added_by` VARCHAR(255) NOT NULL , `user_posted_to` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`) ) ENGINE = MyISAM;
